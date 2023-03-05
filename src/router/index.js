@@ -18,6 +18,14 @@ const routes = [
           {
             name: 'description',
             content: 'The personal website of Andrew Crossan'
+          },
+          {
+            name: 'keywords',
+            content: 'Andrew Crossan, Vue, JavaScript, Web Development, Andrew. Crossan, Web, Development, Portfolio, home'
+          },
+          {
+            name: 'author',
+            content: 'Andrew Crossan'
           }
         ]
       }
@@ -34,6 +42,14 @@ const routes = [
           {
             name: 'description',
             content: 'About me'
+          },
+          {
+            name: 'keywords',
+            content: 'about, me, about me, Andrew Crossan, Vue, JavaScript, Web Development, Andrew. Crossan, Web, Development, Portfolio, home'
+          },
+          {
+            name: 'author',
+            content: 'Andrew Crossan'
           }
         ]
       }
