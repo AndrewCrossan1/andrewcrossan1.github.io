@@ -11,10 +11,9 @@ cp robots.txt dist/robots.txt
 
 cd dist || exit
 
-git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:AndrewCrossan1/andrewcrossan1.github.io master:gh-pages
+git push git@github.com:AndrewCrossan1/andrewcrossan1.github.io master:gh-pages
 
 cd - || exit
