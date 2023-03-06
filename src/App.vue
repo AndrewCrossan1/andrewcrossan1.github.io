@@ -16,16 +16,13 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
  #app{
-  background: url('@/assets/images/4kback.webp') no-repeat center center;
+  background: url("https://github.com/AndrewCrossan1/andrewcrossan1.github.io/raw/gh-pages/img/4kback.a3960780.webp") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.other-route-view {
 }
 
 @media (min-width: 768px) {

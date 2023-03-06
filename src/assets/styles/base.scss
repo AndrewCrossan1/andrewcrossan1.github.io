@@ -21,6 +21,7 @@
     font-style: normal;
 }
 
+
 @font-face {
     font-family: 'Lobster';
     src: url("../fonts/Lobster-Regular.ttf") format("truetype");
@@ -50,7 +51,7 @@ h1[font="dosis"], h3[font="dosis"] {
 }
 
 .btn-galaxy {
-    background: url("../images/4kback.webp") no-repeat;
+    background: url("https://github.com/AndrewCrossan1/andrewcrossan1.github.io/raw/gh-pages/img/4kback.a3960780.webp") no-repeat;
     color: white;
     font-family: $bebas;
     font-size: 1.5rem;
@@ -90,6 +91,6 @@ h1[font="dosis"], h3[font="dosis"] {
 
 @media (min-width: 768px) {
     #app {
-        height: 100vh;
+        min-height: 100vh;
     }
 }
