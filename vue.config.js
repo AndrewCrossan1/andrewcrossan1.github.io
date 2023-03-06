@@ -4,7 +4,8 @@ module.exports = defineConfig({
   pluginOptions: {
     sitemap: {
       urls: [
-        'https://andrewcrossan1.github.io/'
+        'https://andrewcrossan1.github.io/#/',
+        'https://andrewcrossan1.github.io/#/about'
       ]
     }
   }
