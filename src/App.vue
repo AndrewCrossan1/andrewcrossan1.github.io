@@ -18,7 +18,7 @@ export default {
 
 <style>
  #app{
-  background: url("https://github.com/AndrewCrossan1/andrewcrossan1.github.io/raw/gh-pages/img/4kback.a3960780.webp") no-repeat center center;
+  background: url("@/assets/images/4kback.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
