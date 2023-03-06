@@ -1,7 +1,7 @@
 #!/bin/env sh
 
 echo "> Building application..."
-npm run --silent build
+npm run build -s
 
 echo "> Copying files..."
 cp robots.txt dist/robots.txt
@@ -10,6 +10,7 @@ cp CNAME dist/CNAME
 cd dist || exit
 
 echo "> Deploying to GitHub Pages..."
+git init
 git add -A
 git commit -m 'deploy'
 
