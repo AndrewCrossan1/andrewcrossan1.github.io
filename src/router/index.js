@@ -54,6 +54,26 @@ const routes = [
         ]
       }
     }
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import(/* webpackChunkName: "blog" */ '../views/BlogView.vue'),
+    meta: {
+      seo: {
+        title: 'Blog | Andrew Crossan',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'A blog where I write about things I find interesting, developers are also welcome to contribute'
+          },
+          {
+            name: 'keywords',
+            content: 'blog, Andrew Crossan, Vue, JavaScript, Web Development, Andrew. Crossan, Web, Development, Portfolio, home'
+          }
+        ]
+      }
+    }
   }
 ]
 
