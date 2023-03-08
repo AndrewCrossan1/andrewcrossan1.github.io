@@ -27,9 +27,9 @@
           </b-link>
         </b-nav-item>
         <b-nav-item>
-          <b-link to="/contact" class="nav-link text-white hover-underline" font="roboto">
-            <b-icon icon="telephone-fill" class="text-white"/>
-            Contact
+          <b-link to="/blog" class="nav-link text-white hover-underline" font="roboto">
+            <b-icon icon="people-fill" class="text-white"/>
+            Blog
           </b-link>
         </b-nav-item>
         <b-nav-item>
