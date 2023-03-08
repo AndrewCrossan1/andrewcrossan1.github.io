@@ -38,6 +38,14 @@
             Projects
           </b-link>
         </b-nav-item>
+        <!-- TODO: Integrate with backend (To get logged in status) -->
+        <b-nav-item-dropdown v-if="this.$route.name.startsWith('blog')" text="Account" tag="a" right class="nav-link text-white hover-underline">
+          <b-dropdown-item to="/login">Login</b-dropdown-item>
+          <b-dropdown-item to="/register">Register</b-dropdown-item>
+          <b-dropdown-divider></b-dropdown-divider>
+          <b-dropdown-item to="/logout">Password Reset</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <!-- TODO: Add dropdown for logged in users -->
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
