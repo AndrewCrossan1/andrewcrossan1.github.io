@@ -94,3 +94,9 @@ h1[font="dosis"], h3[font="dosis"] {
         min-height: 100vh;
     }
 }
+
+@media (max-width: 768px) {
+    #app {
+        min-height: 100vh;
+    }
+}
