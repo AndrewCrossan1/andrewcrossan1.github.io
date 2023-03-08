@@ -116,6 +116,26 @@ const routes = [
     }
   },
   {
+    path: '/projects/:id',
+    name: 'project',
+    component: () => import(/* webpackChunkName: "project" */ '../views/ProjectView.vue'),
+    meta: {
+      seo: {
+        title: 'Project | Andrew Crossan',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'A project'
+          },
+          {
+            name: 'keywords',
+            content: 'project, Andrew Crossan, Vue, JavaScript, Web Development, Andrew. Crossan, Web, Development, Portfolio, home'
+          }
+        ]
+      }
+    }
+  },
+  {
     path: '/account/login',
     name: 'login',
     component: () => import(/* webpackChunkName: "login" */ '../views/AccountView.vue'),
