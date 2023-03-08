@@ -11,6 +11,8 @@ import '@/assets/styles/base.css'
 
 Vue.config.productionTip = false
 
+Vue.prototype.$debug = true
+
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
