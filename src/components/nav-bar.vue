@@ -58,30 +58,6 @@ export default {
 </script>
 
 <style scoped>
-.hover-underline {
-  display: inline-block;
-  position: relative;
-  color: white;
-}
-
-.hover-underline:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: mediumseagreen;
-  transform-origin: bottom right;
-  transition: transform 0.4s ease-out;
-}
-
-.hover-underline:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
 .nav-link {
   font-size: 1.1rem;
 }
