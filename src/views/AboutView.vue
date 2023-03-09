@@ -3,7 +3,7 @@
     <b-container size="md" class="pt-5 mt-5">
       <b-row>
         <b-col>
-          <h1 class="text-center text-bebas text-white">About Me</h1>
+          <h1 class="text-center text-tilt-warp text-white">About Me</h1>
         </b-col>
       </b-row>
       <div class="divider">
@@ -35,15 +35,6 @@ export default {
   align-items: center;
   text-align: center;
   color: #c2c2c2;
-}
-
-.list-group-item {
-  background-color: transparent !important;
-  transition: all 0.2s linear;
-}
-
-.list-group-item:hover {
-  color: white !important;
 }
 
 .divider::before, .divider::after {
