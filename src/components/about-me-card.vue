@@ -8,7 +8,7 @@
               <div class="d-flex me-auto">
                 <img class="rounded-circle flex-shrink-0 me-3 mb-3 fit-cover" width="75" height="75" src="https://media.licdn.com/dms/image/D4E03AQGQSZyqYNiJ0g/profile-displayphoto-shrink_200_200/0/1677864513662?e=1683158400&v=beta&t=suYTSTY4xvVG2u0D8KaHCxZACgz74xUXaUVOyL-rCDg"  alt="Avater"/>
                 <div>
-                  <p class="fw-bold text-black text-bebas fs-3 mb-0">Andrew Crossan</p>
+                  <p class="fw-bold text-aquamarine text-tilt-warp fs-3 mb-0">Andrew Crossan</p>
                   <p class="text-white mb-0">Web Developer</p>
                   <hr/>
                 </div>
@@ -35,7 +35,7 @@
     <b-row class="justify-content-center p-4">
       <!-- Education section -->
       <b-col xl="8" lg="8" md="8" sm="12">
-        <h2 class="text-bebas text-center text-white fs-1 text-decoration-underline">Education</h2>
+        <h2 class="text-tilt-warp text-center text-aquamarine fs-1 text-decoration-underline">Education</h2>
         <h6 class="text-white text-center pt-2 text-roboto">HND Computing: Software Development</h6>
         <hr/>
         <p class="text-white text-roboto">
