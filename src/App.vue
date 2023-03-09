@@ -18,7 +18,7 @@ export default {
 
 <style>
  #app{
-  background: url("@/assets/images/4kback.jpg") no-repeat center center;
+  background: url("@/assets/images/Sprinkle.svg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
