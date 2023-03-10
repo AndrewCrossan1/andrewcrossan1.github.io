@@ -13,7 +13,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-CNAME
+# Ignore images and fonts because they are always loaded from cdn
+/src/assets/images/
+/src/assets/fonts/
+
 
 # Editor directories and files
 .idea
@@ -23,15 +26,3 @@ CNAME
 *.njsproj
 *.sln
 *.sw?
-
-/public/
-/scripts/
-/src/
-.editorconfig
-babel.config.js
-jsconfig.json
-package.json
-package-lock.json
-/robots.txt
-/sitemap.xml
-vue.config.js
