@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../pages/HomeView.vue'
-import AboutView from '@/pages/AboutView'
 import { seoGuardWithNext } from '@aminoeditor/vue-router-seo'
 
 Vue.use(VueRouter)
@@ -34,7 +33,7 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    component: AboutView,
+    component: () => import(/* webpackChunkName: "aboutPage" */ '../pages/AboutView.vue'),
     meta: {
       seo: {
         title: 'About | Andrew Crossan',
