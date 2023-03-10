@@ -7,11 +7,11 @@ import axios from 'axios'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import '@/assets/styles/base.css'
+import '../src/assets/styles/base.css'
 
 Vue.config.productionTip = false
 
-Vue.prototype.$debug = true
+Vue.prototype.$debug = false
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)

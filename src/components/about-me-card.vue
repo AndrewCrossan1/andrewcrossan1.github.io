@@ -57,7 +57,7 @@
         </p>
       </b-col>
       <b-col class="justify-content-center text-center" xl="4" lg="4" md="4" sm="12">
-        <img src="../assets/images/cert.svg" class="img-fluid img-thumbnail" alt="education"/>
+        <img src="https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/img/cert.svg" class="img-fluid img-thumbnail" alt="education"/>
       </b-col>
     </b-row>
   </div>

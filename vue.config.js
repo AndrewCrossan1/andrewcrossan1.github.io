@@ -14,5 +14,21 @@ module.exports = defineConfig({
         'https://andrewcrossan.live/#/blog'
       ]
     }
-  }
+  },
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      template: 'public/index.html',
+      filename: 'index.html',
+      chunks: ['chunk-vendors', 'chunk-common', 'index']
+    },
+    about: {
+      entry: 'src/main.js',
+      template: 'public/index.html',
+      filename: 'about.html',
+      chunks: ['chunk-vendors', 'chunk-common', 'about']
+    }
+  },
+  filenameHashing: false,
+  publicPath: process.env.NODE_ENV === 'production' ? 'https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com' : '/'
 })

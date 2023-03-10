@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../pages/HomeView.vue'
+import AboutView from '@/pages/AboutView'
 import { seoGuardWithNext } from '@aminoeditor/vue-router-seo'
-import AboutView from '@/views/AboutView'
 
 Vue.use(VueRouter)
 
@@ -138,7 +138,7 @@ const routes = [
   {
     path: '/account/login',
     name: 'login',
-    component: () => import(/* webpackChunkName: "login" */ '../views/AccountView.vue'),
+    component: () => import(/* webpackChunkName: "account" */ '../views/AccountView.vue'),
     meta: {
       seo: {
         title: 'Login | Andrew Crossan',
@@ -158,7 +158,7 @@ const routes = [
   {
     path: '/account/register',
     name: 'register',
-    component: () => import(/* webpackChunkName: "register" */ '../views/AccountView.vue'),
+    component: () => import(/* webpackChunkName: "account" */ '../views/AccountView.vue'),
     meta: {
       seo: {
         title: 'Register | Andrew Crossan',

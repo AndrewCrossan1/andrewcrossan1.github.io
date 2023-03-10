@@ -17,9 +17,15 @@ export default new Vuex.Store({
     token: state => state.token
   },
   mutations: {
-    SET_USER (state, payload) {},
-    SET_TOKEN (state, payload) {},
-    SET_LOGGED_IN (state, payload) {}
+    SET_USER (state, payload) {
+      state.user = payload
+    },
+    SET_TOKEN (state, payload) {
+      state.token = payload
+    },
+    SET_LOGGED_IN (state, payload) {
+      state.loggedIn = payload
+    }
   },
   actions: {
     async login (commit, payload) {
