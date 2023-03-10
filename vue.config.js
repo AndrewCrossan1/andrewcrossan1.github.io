@@ -26,9 +26,9 @@ module.exports = defineConfig({
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'about.html',
-      chunks: ['chunk-vendors', 'chunk-common', 'about']
+      chunks: ['chunk-vendors', 'chunk-common', 'aboutPage']
     }
   },
   filenameHashing: false,
-  publicPath: process.env.NODE_ENV === 'production' ? 'https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? 'https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com' : '/',
 })
