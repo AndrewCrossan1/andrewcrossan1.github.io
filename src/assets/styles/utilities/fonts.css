@@ -1,0 +1,59 @@
+/* Aero */
+/* Aquamarine */
+@font-face {
+  font-family: "Roboto";
+  src: url("@/assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("@/assets/fonts/Dosis-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("@/assets/fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("@/assets/fonts/Lobster-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Tilt Warp";
+  src: url("@/assets/fonts/TiltWarp-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.text-lobster {
+  font-family: "Lobster", cursive;
+}
+
+.text-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-tilt-warp {
+  font-family: "Tilt Warp", sans-serif;
+}
+
+/* Font colours */
+.text-aquamarine {
+  color: #7FFFD4;
+}
+
+/*# sourceMappingURL=fonts.css.map */

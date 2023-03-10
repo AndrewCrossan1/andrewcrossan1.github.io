@@ -1,0 +1,32 @@
+/* Aero */
+/* Aquamarine */
+.bg-aero {
+  color: #7CB9E8;
+}
+
+.bg-aquamarine {
+  background-color: #7FFFD4;
+}
+
+.bg-dark-card {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px none rgba(255, 255, 255, 0.18);
+  border-bottom-style: solid;
+}
+
+.bg-dark-card-corners {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px none rgba(255, 255, 255, 0.18);
+  border-bottom-style: solid;
+}
+
+/*# sourceMappingURL=backgrounds.css.map */

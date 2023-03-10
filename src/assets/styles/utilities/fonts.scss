@@ -1,0 +1,63 @@
+@import 'colours';
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/Dosis-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lobster';
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/Lobster-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tilt Warp';
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/TiltWarp-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$roboto: 'Roboto', sans-serif;
+$dosis: 'Dosis', sans-serif;
+$bebas: 'Bebas Neue', sans-serif;
+$tilt-warp: 'Tilt Warp', sans-serif;
+
+.text-lobster {
+    font-family: 'Lobster', cursive;
+}
+.text-bebas {
+    font-family: $bebas;
+}
+.text-roboto {
+    font-family: $roboto;
+}
+.text-tilt-warp {
+  font-family: $tilt-warp;
+}
+
+/* Font colours */
+//noinspection SassScssResolvedByNameOnly
+.text-aquamarine {
+    color: $aquamarine;
+}
+
+//noinspection SassScssResolvedByNameOnly

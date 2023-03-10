@@ -1,0 +1,174 @@
+/* Aero */
+/* Aquamarine */
+/* Aero */
+/* Aquamarine */
+.bg-aero {
+  color: #7CB9E8;
+}
+
+.bg-aquamarine {
+  background-color: #7FFFD4;
+}
+
+.bg-dark-card {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px none rgba(255, 255, 255, 0.18);
+  border-bottom-style: solid;
+}
+
+.bg-dark-card-corners {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px none rgba(255, 255, 255, 0.18);
+  border-bottom-style: solid;
+}
+
+/* Aero */
+/* Aquamarine */
+.btn {
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Aquamarine button */
+.btn-aquamarine {
+  background-color: #7FFFD4;
+  color: white;
+}
+.btn-aquamarine:hover {
+  background-color: transparent;
+  border: 1px solid #7FFFD4;
+  color: white;
+}
+
+.btn-outline-aquamarine {
+  background-color: transparent;
+  color: #7FFFD4;
+  border: 1px solid #7FFFD4;
+}
+.btn-outline-aquamarine:hover {
+  background-color: #7FFFD4;
+  color: white;
+}
+
+/* Aero Button */
+.btn-aero {
+  background-color: #7CB9E8;
+  border: 1px solid #7CB9E8;
+  color: white;
+}
+.btn-aero:hover {
+  background-color: #51a2e0;
+}
+
+.btn-outline-aero {
+  background-color: transparent;
+  color: #7CB9E8;
+  border: 1px solid #7CB9E8;
+}
+.btn-outline-aero:hover {
+  background-color: #7CB9E8;
+  color: white;
+}
+
+/* Aero */
+/* Aquamarine */
+@font-face {
+  font-family: "Roboto";
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/Dosis-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/Lobster-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Tilt Warp";
+  src: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/fonts/TiltWarp-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.text-lobster {
+  font-family: "Lobster", cursive;
+}
+
+.text-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-tilt-warp {
+  font-family: "Tilt Warp", sans-serif;
+}
+
+/* Font colours */
+.text-aquamarine {
+  color: #7FFFD4;
+}
+
+/* Aero */
+/* Aquamarine */ /* Underline effect for nav links */
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+.hover-underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: center;
+  transition: transform 0.2s ease-out;
+}
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+@media (min-width: 768px) {
+  #app {
+    min-height: 100vh;
+  }
+}
+@media (max-width: 768px) {
+  #app {
+    min-height: 100vh;
+  }
+}
+
+/*# sourceMappingURL=base.css.map */

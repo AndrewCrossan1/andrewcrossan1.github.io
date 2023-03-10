@@ -1,0 +1,48 @@
+/* Aero */
+/* Aquamarine */
+.btn {
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Aquamarine button */
+.btn-aquamarine {
+  background-color: #7FFFD4;
+  color: white;
+}
+.btn-aquamarine:hover {
+  background-color: transparent;
+  border: 1px solid #7FFFD4;
+  color: white;
+}
+
+.btn-outline-aquamarine {
+  background-color: transparent;
+  color: #7FFFD4;
+  border: 1px solid #7FFFD4;
+}
+.btn-outline-aquamarine:hover {
+  background-color: #7FFFD4;
+  color: white;
+}
+
+/* Aero Button */
+.btn-aero {
+  background-color: #7CB9E8;
+  border: 1px solid #7CB9E8;
+  color: white;
+}
+.btn-aero:hover {
+  background-color: #51a2e0;
+}
+
+.btn-outline-aero {
+  background-color: transparent;
+  color: #7CB9E8;
+  border: 1px solid #7CB9E8;
+}
+.btn-outline-aero:hover {
+  background-color: #7CB9E8;
+  color: white;
+}
+
+/*# sourceMappingURL=buttons.css.map */

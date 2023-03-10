@@ -1,0 +1,58 @@
+@import 'colours';
+
+.btn {
+  box-shadow: 0 2px 4px 1px rgba( 0, 0, 0, 0.1 );
+}
+
+/* Aquamarine button */
+//noinspection ALL
+.btn-aquamarine {
+  background-color: $aquamarine;
+  color: white;
+
+  //noinspection SassScssResolvedByNameOnly
+  &:hover {
+    background-color: transparent;
+    border: 1px solid $aquamarine;
+    color: white;
+  }
+}
+
+//noinspection ALL
+.btn-outline-aquamarine {
+  background-color: transparent;
+  color: $aquamarine;
+  border: 1px solid $aquamarine;
+
+  //noinspection SassScssResolvedByNameOnly
+  &:hover {
+    background-color: $aquamarine;
+    color: white;
+  }
+}
+
+/* Aero Button */
+//noinspection ALL
+.btn-aero {
+  background-color: $aero;
+  border: 1px solid $aero;
+  color: white;
+
+  //noinspection SassScssResolvedByNameOnly
+  &:hover {
+    background-color: darken($aero, 10%);
+  }
+}
+
+//noinspection ALL
+.btn-outline-aero {
+  background-color: transparent;
+  color: $aero;
+  border: 1px solid $aero;
+
+  //noinspection SassScssResolvedByNameOnly
+  &:hover {
+    background-color: $aero;
+    color: white;
+  }
+}
