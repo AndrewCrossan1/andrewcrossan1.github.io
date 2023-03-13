@@ -18,7 +18,7 @@ export default {
 
 <style>
  #app{
-  background: url("https://api.andrewcrossan.live/static/frontend/images/Sprinkle.svg") no-repeat center center;
+  background: url("https://portfolio-cdn.nyc3.cdn.digitaloceanspaces.com/img%2FSprinkle.svg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
